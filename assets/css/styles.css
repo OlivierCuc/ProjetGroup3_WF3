@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Arimo|Josefin+Sans');
+
+
+body
+{
+  font-family: 'Arimo', sans-serif;
+}
 
 #homeimage{
 background-image: url('../img/femmes_coco.jpg');
@@ -6,12 +13,12 @@ background-position: center;
 background-size:cover;
 background-color: rgba(255,255,255,0.5);
 height: 100vh;
-color: #F4EFE6;
+color: white;
 }
 
 
 #partie2{
-background-color: #F4EFE6;
+background-color: #FFFFFF;
 padding-top: 50px;
 padding-bottom: 50px;
 color: black !important;
@@ -19,17 +26,18 @@ color: black !important;
 }
 
 h2{
-  color: black;
-  font-family: Trattatello, fantasy;
+  color: #5AD93B;
+  font-family: 'Josefin Sans', sans-serif;
   font-stretch: ultra-expanded;
+  font-weight: 100;
 }
 
 
 
 #patte {
-background-color: #C7C6F0;
+background-color: #43A5E5;
 padding-bottom: 25vh;
-color:#346472;
+color:#FFFFFF;
 font-family: Snell Roundhand, cursive;
 text-align: center;
 margin: auto;
@@ -37,7 +45,7 @@ margin: auto;
 }
 
 #partie3{
-background-color: #C7C6F0;
+background-color: #FFFFFF;
 padding-top: 50px;
 padding-bottom: 50px;
 
@@ -100,3 +108,13 @@ color: #F4EFE6;
 
 }
 
+
+.bg-white
+{
+  background-color: white;
+}
+
+.navbar-brand
+{
+  color:#5AD93B !important;
+}
