@@ -49,7 +49,7 @@
 	</nav>
 </header>
 <!--****************</Navbar>*******************-->
-
+<body>
 
 
 <main id="homeimage" class="container-fluid" >
@@ -59,46 +59,51 @@
 				<div class="col">
 					<h2>Chercher un co-déplacement :</h2>
 					<form class="form-inline row">
-					  <label class="sr-only" for="adressDepart">Départ</label>
-					 <div class="input-group mb-2 mr-sm-2 col">
-					    <div class="input-group-prepend">
-					      <div class="input-group-text"><i class="fas fa-location-arrow"></i></div>
-					    </div>
-					 	 <input type="text" class="form-control mb-2 mr-sm-2" id="adressDepart" placeholder="Départ">
-					 </div>
+						<div class="col-12">
+							 <label class="sr-only" for="adressDepart">Départ</label>
+							 <div class="input-group mb-2 mr-sm-2 col">
+							    <div class="input-group-prepend">
+							      <div class="input-group-text"><i class="fas fa-location-arrow"></i></div>
+							    </div>
+							 	 <input type="text" class="form-control mb-2 mr-sm-2" id="adressDepart" placeholder="Départ">
+							 </div>
 
-					  <label class="sr-only" for="adressArrive">Arrivé</label>
-					  <div class="input-group mb-2 mr-sm-2 col">
-					    <div class="input-group-prepend">
-					      <div class="input-group-text"><i class="fas fa-location-arrow"></i></div>
-					    </div>
-					    <input type="text" class="form-control" id="adressArrive" placeholder="Arrivé">
-					  </div>
-					  <select class="form-control mb-2 mr-sm-2 col" placehoder="Type">
-					  	<option selected>Non précisé</option>
-					  	<option >Voiture</option>
-					  	<option >VTC</option>
-					  	<option >2 roues</option>
-					  	<option >Bateau</option>
-					  	<option >Avion</option>
-					  	<option >Drone</option>
-					  </select>
-					  <legend class="col-form-label mb-2 mr-sm-2 pt-0 col">Passager :</legend>
-				      
-				        <div class="form-check col">
-				          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
-				          <label class="form-check-label mb-2 mr-sm-2" for="gridRadios1">
-				            Personne
-				          </label>
-				        </div>
-				        <div class="form-check col">
-				          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
-				          <label class="form-check-label mb-2 mr-sm-2" for="gridRadios2">
-				            Coli
-				          </label>
-				        </div>
-				      </div>
-					  <button type="submit" class="btn btn-primary mb-2">Rechercher</button>
+							  <label class="sr-only" for="adressArrive">Arrivé</label>
+							  <div class="input-group mb-2 mr-sm-2 col">
+							    <div class="input-group-prepend">
+							      <div class="input-group-text"><i class="fas fa-location-arrow"></i></div>
+							    </div>
+							    <input type="text" class="form-control" id="adressArrive" placeholder="Arrivé">
+							  </div>
+							<select class="form-control mb-2 mr-sm-2 col" placehoder="Type">
+							  	<option selected>Non précisé</option>
+							  	<option >Voiture</option>
+							  	<option >VTC</option>
+							  	<option >2 roues</option>
+							  	<option >Bateau</option>
+							  	<option >Avion</option>
+							  	<option >Drone</option>
+						  	</select>
+						</div>
+					 
+					  <div class="col-8">
+						  <legend class="col-form-label mb-2 mr-sm-2 pt-0 col-12">Passager :</legend>
+					        <div class="form-check col-6">
+					          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+					          <label class="form-check-label mb-2 mr-sm-2" for="gridRadios1">
+					            Personne
+					          </label>
+					        </div>
+					        <div class="form-check col-6">
+					          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+					          <label class="form-check-label mb-2 mr-sm-2" for="gridRadios2">
+					            Coli
+					          </label>
+					        </div>
+				    	</div> 
+				    	<div class="col-4">
+				    		<button type="submit" class="btn btn-primary mb-2">Rechercher</button>
+				    	</div>
 					</form>
 				</div>
 			</div>
@@ -148,6 +153,7 @@
 					<h2>Témoignage 4</h2>
 					<p>« C’était un covoiturage Rennes/Nantes, il y a deux ans, juste avant les vacances de Noël. J'attendais mon dernier passager au campus de Villejean quand je le vois débarquer avec un énorme sapin.</p>
 				</div>
+			</div>
 				<!-- fin des col -->
 		</div>
 	</section>

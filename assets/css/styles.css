@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Arimo|Josefin+Sans');
+@import url('https://fonts.googleapis.com/css?family=Arimo|Josefin+Sans|Buda:300|El+Messiri|Kavivanar');
 
 
 body
@@ -26,13 +26,16 @@ color: black !important;
 }
 
 h2{
-  color: #5AD93B;
-  font-family: 'Josefin Sans', sans-serif;
+  color: #5FFF6D;
+  font-family: 'El Messiri', sans-serif;
   font-stretch: ultra-expanded;
   font-weight: 100;
 }
 
-
+#homeimage h2
+{
+  font-size: 2rem;
+}
 
 #patte {
 background-color: #43A5E5;
@@ -116,6 +119,14 @@ color: #F4EFE6;
 
 .navbar-brand
 {
-  color:#5AD93B !important;
+  color:#5FFF6D !important;
   font-size: 2rem;
+  font-family: 'El Messiri', sans-serif;
 }
+
+/*.btn
+{
+  border-color: #FFC55F;
+  background-color: #E8E557;
+  color: black;
+}*/
