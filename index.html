@@ -18,65 +18,96 @@
 
 <!--****************Navbar*******************-->
 <header id="homeimage">
-<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
-  <a class="navbar-brand" href="#">Cococar</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+	<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+	  <a class="navbar-brand" href="#">Cococar</a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
 
-  <div class="collapse navbar-collapse">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Acceuil <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">login</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Info utile</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Publier votre Annonce</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Mon compte</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Creer un compte</a>
-      </li>
-    </ul>
-  </div>
-</nav>
+	  <div class="collapse navbar-collapse">
+	    <ul class="navbar-nav ml-auto">
+	      <li class="nav-item active">
+	        <a class="nav-link" href="#">Acceuil <span class="sr-only">(current)</span></a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#">login</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#">Info utile</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#">Publier votre Annonce</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#">Mon compte</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#">Creer un compte</a>
+	      </li>
+	    </ul>
+	  </div>
+	</nav>
+</header>
 <!--****************</Navbar>*******************-->
 
 
 
-<main class="container-fluid" >
-	<section class="container">
-		<aside class="row" >
+<main id="homeimage" class="container-fluid" >
+	<section class="row">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<h2>Chercher un co-déplacement :</h2>
+					<form class="form-inline row">
+					  <label class="sr-only" for="adressDepart">Départ</label>
+					 <div class="input-group mb-2 mr-sm-2 col">
+					    <div class="input-group-prepend">
+					      <div class="input-group-text"><i class="fas fa-location-arrow"></i></div>
+					    </div>
+					 	 <input type="text" class="form-control mb-2 mr-sm-2" id="adressDepart" placeholder="Départ">
+					 </div>
 
-			<div class="col-4">
-				
+					  <label class="sr-only" for="adressArrive">Arrivé</label>
+					  <div class="input-group mb-2 mr-sm-2 col">
+					    <div class="input-group-prepend">
+					      <div class="input-group-text"><i class="fas fa-location-arrow"></i></div>
+					    </div>
+					    <input type="text" class="form-control" id="adressArrive" placeholder="Arrivé">
+					  </div>
+					  <select class="form-control mb-2 mr-sm-2 col" placehoder="Type">
+					  	<option selected>Non précisé</option>
+					  	<option >Voiture</option>
+					  	<option >VTC</option>
+					  	<option >2 roues</option>
+					  	<option >Bateau</option>
+					  	<option >Avion</option>
+					  	<option >Drone</option>
+					  </select>
+					  <legend class="col-form-label mb-2 mr-sm-2 pt-0 col">Passager :</legend>
+				      
+				        <div class="form-check col">
+				          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+				          <label class="form-check-label mb-2 mr-sm-2" for="gridRadios1">
+				            Personne
+				          </label>
+				        </div>
+				        <div class="form-check col">
+				          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+				          <label class="form-check-label mb-2 mr-sm-2" for="gridRadios2">
+				            Coli
+				          </label>
+				        </div>
+				      </div>
+					  <button type="submit" class="btn btn-primary mb-2">Rechercher</button>
+					</form>
+				</div>
 			</div>
-			<div class="col-4">
-				
-			</div>
-			<div class="col-2">
-				
-			</div>
-			<div class="col-2">
-				<p></p>
-			</div>
-		</aside>
+		</div>
 	</section>
-</main>
-</header>
 
-
-<main class="container-fluid" id="partie2">
-	<section class="container">
-		<aside class="row">
-
+	<section class="row" id="partie2">
+		<div class="container">
+			<div class="row">
 				<!-- 1 col -->
 				<div class="col-6">
 					<img class="rounded-circle" src="assets/img/femme1.jpg" alt="Generic placeholder image" width="140" height="140">
@@ -90,16 +121,15 @@
 					<h2>Témoignage 2</h2>
 					<p>Au bout de 30 minutes, nous avons réussi à sortir le sapin qui était complètement... nu ! À force de le malmener pour l'extraire, l'arbre avait perdu toutes ses épines. Nous nous sommes tous regardés et avons éclaté de rire. Je ne sais pas si ce sapin y est pour quelque chose mais depuis, nous sommes tous restés amis. »</p>
 				</div>
-
-				
 				<!-- fin des col -->
-		</aside>
+			</div>
+		</div>
 	</section>
-  </main> <!-- /// fin de ligne ok! ben oui je fais ce que je veux cest mon code/commente ;)  -->
-
-<main class="container-fluid" id="partie3">
-	<section class="container">
-		<aside class="row">
+ <!-- /// fin de ligne ok! ben oui je fais ce que je veux cest mon code/commente ;)  -->
+	
+	<section class="row" id="partie3">
+		<div class="container">
+			<div class="row">
 
 				<!-- 1 col -->
 				<div class="col-2">
@@ -119,68 +149,47 @@
 					<p>« C’était un covoiturage Rennes/Nantes, il y a deux ans, juste avant les vacances de Noël. J'attendais mon dernier passager au campus de Villejean quand je le vois débarquer avec un énorme sapin.</p>
 				</div>
 				<!-- fin des col -->
-		</aside>
+		</div>
 	</section>
-  </main>   <!-- /// fin de ligne ok! ben oui je fais ce que je veux cest mon code/commente ;)   -->
+   <!-- /// fin de ligne ok! ben oui je fais ce que je veux cest mon code/commente ;)   -->
 
 
-  <main class="container-fluid" id="bulleimage">
-	<section class="container">
-		<aside class="row" >
-			<div class="col-12">
+  	<section class="row" id="bulleimage">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
 
 
 
+				</div>
 			</div>
-		</aside>
+		</div>
 	</section>
-</main> 
 
 
-
-
-  <main class="container-fluid" id="patte">
-	<section class="container">
-		<aside class="row" >
-			<div class="col-12">
-
-				<h3>Encore un blabla</h3>
-				<p>Lorem Ipsum
-"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
-"Il n’y a personne qui n’aime la souffrance pour elle-même, qui ne la recherche et qui ne la veuille pour elle-même…"
-Qu'est-ce que le Lorem Ipsum?
-
-Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.
-Pourquoi l'utiliser?
-
-On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même. L'avantage du Lorem Ipsum sur un texte générique comme 'Du texte. Du texte. Du texte.' est qu'il possède une distribution de lettres plus ou moins normale, et en tout cas comparable avec celle du français standard. De nombreuses suites logicielles de mise en page ou éditeurs de sites Web ont fait du Lorem Ipsum leur faux texte par défaut, et une recherche pour 'Lorem Ipsum' vous conduira vers de nombreux sites qui n'en sont encore qu'à leur phase de construction. Plusieurs versions sont apparues avec le temps, parfois par accident, souvent intentionnellement (histoire d'y rajouter de petits clins d'oeil, voire des phrases embarassantes).
-
-D'où vient-il?
-
-Contrairement à une opinion répandue, le Lorem Ipsum n'est pas simplement du texte aléatoire. Il trouve ses racines dans une oeuvre de la littérature latine classique datant de 45 av. J.-C., le rendant vieux de 2000 ans. Un professeur du Hampden-Sydney College, en Virginie, s'est intéressé à un des mots latins les plus obscurs, consectetur, extrait d'un passage du Lorem Ipsum, et en étudiant tous les usages de ce mot dans la littérature classique, découvrit la source incontestable du Lorem Ipsum. Il provient en fait des sections 1.10.32 et 1.10.33 du "De Finibus Bonorum et Malorum" (Des Suprêmes Biens et des Suprêmes Maux) de Cicéron. Cet ouvrage, très populaire pendant la Renaissance, est un traité sur la théorie de l'éthique. Les premières lignes du Lorem Ipsum, "Lorem ipsum dolor sit amet...", proviennent de la section 1.10.32.
-
-L'extrait standard de Lorem Ipsum utilisé depuis le XVIè siècle est reproduit ci-dessous pour les curieux. Les sections 1.10.32 et 1.10.33 du "De Finibus Bonorum et Malorum" de Cicéron sont aussi reproduites dans leur version originale, accompagnée de la traduction anglaise de H. Rackham (1914).
-Où puis-je m'en procurer?
-
-Plusieurs variations de Lorem Ipsum peuvent être trouvées ici ou là, mais la majeure partie d'entre elles a été altérée par l'addition d'humour ou de mots aléatoires qui ne ressemblent pas une seconde à du texte standard. Si vous voulez utiliser un passage du Lorem Ipsum, vous devez être sûr qu'il n'y a rien d'embarrassant caché dans le texte. Tous les générateurs de Lorem Ipsum sur Internet tendent à reproduire le même extrait sans fin, ce qui fait de lipsum.com le seul vrai générateur de Lorem Ipsum. Iil utilise un dictionnaire de plus de 200 mots latins, en combinaison de plusieurs structures de phrases, pour générer un Lorem Ipsum irréprochable. Le Lorem Ipsum ainsi obtenu ne contient aucune répétition, ni ne contient des mots farfelus, ou des touches d'humour.</p>
+ 	<section class="row" id="patte">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<h3>Encore un blabla</h3>
+					<p>Lorem Ipsum. "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..." "Il n’y a personne qui n’aime la souffrance pour elle-même, qui ne la recherche et qui ne la veuille pour elle-même…" Qu'est-ce que le Lorem Ipsum? Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker. Pourquoi l'utiliser? On sait depuis longtemps que travailler avec du texte lisible et contenant du sens est source de distractions, et empêche de se concentrer sur la mise en page elle-même. L'avantage du Lorem Ipsum sur un texte générique comme 'Du texte. Du texte. Du texte.' est qu'il possède une distribution de lettres plus ou moins normale, et en tout cas comparable avec celle du français standard. De nombreuses suites logicielles de mise en page ou éditeurs de sites Web ont fait du Lorem Ipsum leur faux texte par défaut, et une recherche pour 'Lorem Ipsum' vous conduira vers de nombreux sites qui n'en sont encore qu'à leur phase de construction. Plusieurs versions sont apparues avec le temps, parfois par accident, souvent intentionnellement (histoire d'y rajouter de petits clins d'oeil, voire des phrases embarassantes). D'où vient-il? Contrairement à une opinion répandue, le Lorem Ipsum n'est pas simplement du texte aléatoire. Il trouve ses racines dans une oeuvre de la littérature latine classique datant de 45 av. J.-C., le rendant vieux de 2000 ans. Un professeur du Hampden-Sydney College, en Virginie, s'est intéressé à un des mots latins les plus obscurs, consectetur, extrait d'un passage du Lorem Ipsum, et en étudiant tous les usages de ce mot dans la littérature classique, découvrit la source incontestable du Lorem Ipsum. Il provient en fait des sections 1.10.32 et 1.10.33 du "De Finibus Bonorum et Malorum" (Des Suprêmes Biens et des Suprêmes Maux) de Cicéron. Cet ouvrage, très populaire pendant la Renaissance, est un traité sur la théorie de l'éthique. Les premières lignes du Lorem Ipsum, "Lorem ipsum dolor sit amet...", proviennent de la section 1.10.32. L'extrait standard de Lorem Ipsum utilisé depuis le XVIè siècle est reproduit ci-dessous pour les curieux. Les sections 1.10.32 et 1.10.33 du "De Finibus Bonorum et Malorum" de Cicéron sont aussi reproduites dans leur version originale, accompagnée de la traduction anglaise de H. Rackham (1914). Où puis-je m'en procurer? Plusieurs variations de Lorem Ipsum peuvent être trouvées ici ou là, mais la majeure partie d'entre elles a été altérée par l'addition d'humour ou de mots aléatoires qui ne ressemblent pas une seconde à du texte standard. Si vous voulez utiliser un passage du Lorem Ipsum, vous devez être sûr qu'il n'y a rien d'embarrassant caché dans le texte. Tous les générateurs de Lorem Ipsum sur Internet tendent à reproduire le même extrait sans fin, ce qui fait de lipsum.com le seul vrai générateur de Lorem Ipsum. Iil utilise un dictionnaire de plus de 200 mots latins, en combinaison de plusieurs structures de phrases, pour générer un Lorem Ipsum irréprochable. Le Lorem Ipsum ainsi obtenu ne contient aucune répétition, ni ne contient des mots farfelus, ou des touches d'humour.</p>
+				</div>
 			</div>
-		</aside>
+		</div>
 	</section>
-</main> <!-- fin de main-->
 
- <main class="container-fluid" id="jumbo">
- 	<section class="container">
- 		<aside class="row">
- 			<div class="col-12">
- 				<h1>Vous avez une voiture ?</h1>
- 				<p>Faites des économies sur vos déplacements, publiez une annonce de covoiturage !</p>
- 					
- 						
+
+ 	<section class="row" id="jumbo">
+ 		<div class="container">
+			<div class="row">
+				<div class="col-12">
+ 					<h1>Vous avez une voiture ?</h1>
+ 					<p>Faites des économies sur vos déplacements, publiez une annonce de covoiturage !</p>	
  				</div>
  			</div>
- 		</aside>
+ 		</div>
  	</section>
- </main>
+
 
 
 

@@ -12,7 +12,7 @@ background-attachment: fixed;
 background-position: center;
 background-size:cover;
 background-color: rgba(255,255,255,0.5);
-height: 100vh;
+height: 65vh;
 color: white;
 }
 
@@ -117,4 +117,5 @@ color: #F4EFE6;
 .navbar-brand
 {
   color:#5AD93B !important;
+  font-size: 2rem;
 }
