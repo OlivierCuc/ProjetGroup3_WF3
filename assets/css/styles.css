@@ -38,13 +38,24 @@ h2{
 }
 
 #patte {
-background-color: #43A5E5;
+background-color: #C7C6F0;
 padding-bottom: 25vh;
-color:#FFFFFF;
-font-family: Snell Roundhand, cursive;
+color:#346472;
 text-align: center;
 margin: auto;
-
+}
+#pattefooterafter {
+  padding-top: 2em;
+background-color: #E6E6E6;
+color:#828282;
+text-align: center;
+margin: auto;
+}
+#pattefooter {
+  padding-top: 2em;
+background-color: #F2F2F2;
+text-align: center;
+margin: auto;
 }
 
 #partie3{
