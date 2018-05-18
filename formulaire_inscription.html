@@ -1,0 +1,171 @@
+<!DOCTYPE>
+<html>
+  <head >
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Votre inscription sur cococar</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/fontawesome-all.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/owl.theme.default.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/form-validation.css">
+    <script type="text/javascript" src="assets/js/jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="assets/js/owl.carousel.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.js"></script>
+    <script type="text/javascript" src="assets/js/scripts.js"></script>
+  </head>
+<body>
+
+<main class="container-fluid">
+  <aside class="row"> 
+    
+
+        <div class="col-md-8 order-md-1">
+          <h4 class="mb-3">Votre inscription sur Cococar</h4>
+          <form class="needs-validation" novalidate>
+            <div class="row">
+              <div class="col-md-6 mb-3">
+                <label for="firstName">Nom</label>
+                <input type="text" class="form-control" id="firstName" placeholder="Nom" value="" required>
+                <div class="invalid-feedback">
+                  Un Nom valide est requis.
+                </div>
+              </div>
+              <div class="col-md-6 mb-3">
+                <label for="lastName">Prénom</label>
+                <input type="text" class="form-control" id="lastName" placeholder="Prénom" value="" required>
+                <div class="invalid-feedback">
+                  Un prénom valide est requis.
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <label for="username">Nom d'utilisateur</label>
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text">@</span>
+                </div>
+                <input type="text" class="form-control" id="username" placeholder="Pseudo" required>
+                <div class="invalid-feedback" style="width: 100%;">
+                 Un Nom d'utilisateur valide est requis.
+                </div>
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <label for="email">Email <span class="text-muted">(Optional)</span></label>
+              <input type="email" class="form-control" id="email" placeholder="vous@exemple.com">
+              <div class="invalid-feedback">
+                S'il vous plaît entrer une adresse email valide pour les mises à jour d'expédition.
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <label for="address">Adresse</label>
+              <input type="text" class="form-control" id="address" placeholder="Votre adresse avenue...." required>
+              <div class="invalid-feedback">
+                Prière d'indiquer votre adresse.
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <label for="address2">Adresse 2 <span class="text-muted">(Optional)</span></label>
+              <input type="text" class="form-control" id="address2" placeholder="Suite de votre adresse">
+            </div>
+
+            <div class="row">
+              <div class="col-md-5 mb-3">
+                <label for="country">Pays</label>
+                <select class="custom-select d-block w-100" id="country" required>
+                  <option value="">Votre Pays</option>
+                  <option>France</option>
+                  <option>Belgique</option>
+                  <option>Reunion</option>
+                  <option>Ile Maurice</option>
+                  <option>Guyane</option>
+                  <option>France</option>
+                </select>
+                <div class="invalid-feedback">
+                  Veuillez sélectionner un pays valide
+                </div>
+              </div>
+              <div class="col-md-4 mb-3">
+                <label for="state">Ville</label>
+                <select class="custom-select d-block w-100" id="state" required>
+                  <option value="">Ville ...</option>
+                  <option>Auxerre</option>
+                  <option>Paris</option>
+                  <option>lyon</option>
+                  <option>Auxerre</option>
+                  <option>Auxerre</option>
+                </select>
+                <div class="invalid-feedback">
+                  Veuillez sélectionner un pays valide
+                </div>
+              </div>
+              <div class="col-md-3 mb-3">
+                <label for="zip">Code postal</label>
+                <input type="text" class="form-control" id="zip" placeholder="exemple 89 000 ou 89000" required>
+                <div class="invalid-feedback">
+                  Code postal obligatoire.
+                </div>
+              </div>
+            </div>
+            <hr class="mb-4">
+            <div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="same-address">
+              <label class="custom-control-label" for="same-address">Une autre personne à ajouter</label>
+            </div>
+            <div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="save-info">
+              <label class="custom-control-label" for="save-info">Newsletter</label>
+            </div>
+            
+            <div>
+             <label for="bday">Veuillez saisir votre date de naissance :</label>
+              <input type="date" id="bday" name="bday">
+            </div>
+            
+            
+            <hr class="mb-4">
+            <button class="btn btn-primary btn-lg btn-block" type="submit">Enregistrer et continuer</button>
+          </form>
+        </div>
+</aside>
+</main>   
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="../../../../assets/js/vendor/popper.min.js"></script>
+    <script src="../../../../dist/js/bootstrap.min.js"></script>
+    <script src="../../../../assets/js/vendor/holder.min.js"></script>
+    <script>
+      // Example starter JavaScript for disabling form submissions if there are invalid fields
+      (function() {
+        'use strict';
+
+        window.addEventListener('load', function() {
+          // Fetch all the forms we want to apply custom Bootstrap validation styles to
+          var forms = document.getElementsByClassName('needs-validation');
+
+          // Loop over them and prevent submission
+          var validation = Array.prototype.filter.call(forms, function(form) {
+            form.addEventListener('submit', function(event) {
+              if (form.checkValidity() === false) {
+                event.preventDefault();
+                event.stopPropagation();
+              }
+              form.classList.add('was-validated');
+            }, false);
+          });
+        }, false);
+      })();
+    </script>
+   
+</body>
+</html>

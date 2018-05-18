@@ -1,24 +1,19 @@
-@import url('https://fonts.googleapis.com/css?family=Arimo|Josefin+Sans|Buda:300|El+Messiri|Kavivanar');
-
-
-body
-{
-  font-family: 'Arimo', sans-serif;
+body{
+  background-color: grey;
 }
-
 #homeimage{
-background-image: url('../img/femmes_coco.jpg');
+background-image: url('../img/route.jpg');
 background-attachment: fixed;
 background-position: center;
 background-size:cover;
 background-color: rgba(255,255,255,0.5);
-height: 50vh;
-color: white;
+
+color: black;
 }
 
 
 #partie2{
-background-color: #FFFFFF;
+background-color: #76cad4;
 padding-top: 50px;
 padding-bottom: 50px;
 color: black !important;
@@ -26,62 +21,38 @@ color: black !important;
 }
 
 h2{
-  color: #5FFF6D;
-  font-family: 'El Messiri', sans-serif;
+  color: #3a8e21;
+  font-family: Trattatello, fantasy;
   font-stretch: ultra-expanded;
-  font-weight: 100;
-}
-h3{
-  color: black;
-  font-family: 'El Messiri', fantasy;
-  font-stretch: ultra-expanded;
-}
-
-#homeimage h2
-{
-  font-size: 2rem;
 }
 
 #patte {
-background-color: #C7C6F0;
+background-color: #cecece;
 padding-bottom: 25vh;
 color:#346472;
+font-family: Snell Roundhand, cursive;
 text-align: center;
 margin: auto;
-}
-#pattefooterafter {
-  padding-top: 2em;
-background-color: #E6E6E6;
-color:#828282;
-text-align: center;
-margin: auto;
-}
-#pattefooter {
-  padding-top: 2em;
-background-color: #F2F2F2;
-text-align: center;
-margin: auto;
-}
 
+}
 
 #partie3{
-background-color: #FFFFFF;
+background-color: #cecece;
 padding-top: 50px;
 padding-bottom: 50px;
 
 }
 
 #bulleimage{
-background-image: url('../img/vroum.png');
+background-image: url('../img/drone_taxi.jpg');
 background-attachment: fixed;
 background-position: center;
 background-size:cover;
 background-color: rgba(255,255,255,0.5);
-height: 100vh;
+height: 50vh;
 
-color: #F4EFE6;
+color: #76cad4;
 }
-
 
 .button {
   display: inline-block;
@@ -123,27 +94,62 @@ color: #F4EFE6;
   right: 0;
 }
 
-.card-img-top{
-
-
+#coordinates{
+  background-color: #5d5d5d;
+  padding-top:50px;
+  color: #76cad4;
+}
+#coordinates i{
+  color:white;
+}
+#coordinates p, footer ul li{
+  font-size:0.8em;
+}
+#coordinates h2{
+  text-transform: uppercase;
+  font-size: 1.2em;
+  font-weight: bold;
+  padding-bottom: 15px;
+  color: white;
 }
 
-
-.bg-white
-{
-  background-color: white;
+footer{
+  background-color: #454545;
+  color: #f3f3f3;
+  margin: 0;
+  padding: 30px 0;
+  text-align: center;
 }
 
-.navbar-brand
-{
-  color:#5FFF6D !important;
-  font-size: 2rem;
-  font-family: 'El Messiri', sans-serif;
+footer p{
+  margin: 0;
 }
 
-/*.btn
-{
-  border-color: #FFC55F;
-  background-color: #E8E557;
+footer .nav-link{
+  color: white !important;
+}
+.selectform{
+  background-color: #e9ecef;
+  border-radius: 4px;
   color: black;
-}*/
+  padding: 3px;
+}
+
+.form-group{
+  display: block !important;
+}
+.form-control{
+  display: inline !important;
+}
+.input-group{
+  padding-left: 0px;
+}
+.btn{
+  background-color: #e9ecef !important;
+  color: black !important;
+  padding: 9px;
+}
+.formulaire{
+  padding-top: 20vh;
+  padding-bottom: 20vh;
+}

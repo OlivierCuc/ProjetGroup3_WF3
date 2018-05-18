@@ -1,0 +1,65 @@
+<main id="homeimage" class="container-fluid" >
+	<section class="row">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<h2>Chercher un co-déplacement :</h2>
+					<form class="form-inline row">
+						<div class="col-12">
+							
+							 <label class="sr-only" for="adressDepart">Départ</label>
+							 <div class="input-group mb-2 mr-sm-2 col">
+							    <div class="input-group-prepend">
+							      <div class="input-group-text"><i class="fas fa-location-arrow"></i></div>
+							    </div>
+							 	 <input type="text" class="form-control mb-2 mr-sm-2" id="adressDepart" placeholder="Départ">
+							 </div>
+
+							  <label class="sr-only" for="adressArrive">Arrivé</label>
+							  <div class="input-group mb-2 mr-sm-2 col">
+							    <div class="input-group-prepend">
+							      <div class="input-group-text"><i class="fas fa-location-arrow"></i></div>
+							    </div>
+							    <input type="text" class="form-control" id="adressArrive" placeholder="Arrivé">
+							  </div>
+							  <label class="sr-only" for="adressArrive">Date</label>
+							  <div class="input-group mb-2 mr-sm-2 col">
+							    <div class="input-group-prepend">
+							      <div class="input-group-text"><i class="far fa-calendar"></i></div>
+							    </div>
+							    <input type="date" class="form-control" id="dateDepart" placeholder="Date">
+							  </div>
+							<select class="form-control mb-2 mr-sm-2 col" placehoder="Type">
+							  	<option selected>Non précisé</option>
+							  	<option >Voiture</option>
+							  	<option >VTC</option>
+							  	<option >2 roues</option>
+							  	<option >Bateau</option>
+							  	<option >Avion</option>
+							  	<option >Drone</option>
+						  	</select>
+						</div>
+					 
+					  <div class="col-8">
+						  <legend class="col-form-label mb-2 mr-sm-2 pt-0 col-12">Passager :</legend>
+					        <div class="form-check col-6">
+					          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+					          <label class="form-check-label mb-2 mr-sm-2" for="gridRadios1">
+					            Personne
+					          </label>
+					        </div>
+					        <div class="form-check col-6">
+					          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+					          <label class="form-check-label mb-2 mr-sm-2" for="gridRadios2">
+					            Coli
+					          </label>
+					        </div>
+				    	</div> 
+				    	<div class="col-4">
+				    		<button type="submit" class="btn btn-primary mb-2">Rechercher</button>
+				    	</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
