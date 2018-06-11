@@ -1,17 +1,34 @@
+<<<<<<< HEAD
 
 #homeimage{
 background-image: url('../img/femmes_coco.jpg');
+=======
+body{
+  background-color: grey;
+}
+#homeimage{
+background-image: url('../img/route.jpg');
+>>>>>>> Front
 background-attachment: fixed;
 background-position: center;
 background-size:cover;
 background-color: rgba(255,255,255,0.5);
+<<<<<<< HEAD
 height: 100vh;
 color: #F4EFE6;
+=======
+
+color: black;
+>>>>>>> Front
 }
 
 
 #partie2{
+<<<<<<< HEAD
 background-color: #F4EFE6;
+=======
+background-color: #76cad4;
+>>>>>>> Front
 padding-top: 50px;
 padding-bottom: 50px;
 color: black !important;
@@ -19,15 +36,24 @@ color: black !important;
 }
 
 h2{
+<<<<<<< HEAD
   color: black;
+=======
+  color: #3a8e21;
+>>>>>>> Front
   font-family: Trattatello, fantasy;
   font-stretch: ultra-expanded;
 }
 
+<<<<<<< HEAD
 
 
 #patte {
 background-color: #C7C6F0;
+=======
+#patte {
+background-color: #cecece;
+>>>>>>> Front
 padding-bottom: 25vh;
 color:#346472;
 font-family: Snell Roundhand, cursive;
@@ -37,24 +63,40 @@ margin: auto;
 }
 
 #partie3{
+<<<<<<< HEAD
 background-color: #C7C6F0;
+=======
+background-color: #cecece;
+>>>>>>> Front
 padding-top: 50px;
 padding-bottom: 50px;
 
 }
 
 #bulleimage{
+<<<<<<< HEAD
 background-image: url('../img/vroum.png');
+=======
+background-image: url('../img/drone_taxi.jpg');
+>>>>>>> Front
 background-attachment: fixed;
 background-position: center;
 background-size:cover;
 background-color: rgba(255,255,255,0.5);
+<<<<<<< HEAD
 height: 100vh;
 
 color: #F4EFE6;
 }
 
 
+=======
+height: 50vh;
+
+color: #76cad4;
+}
+
+>>>>>>> Front
 .button {
   display: inline-block;
   border-radius: 4px;
@@ -95,8 +137,70 @@ color: #F4EFE6;
   right: 0;
 }
 
+<<<<<<< HEAD
 .card-img-top{
 
 
 }
 
+=======
+#coordinates{
+  background-color: #5d5d5d;
+  padding-top:50px;
+  color: #76cad4;
+}
+#coordinates i{
+  color:white;
+}
+#coordinates p, footer ul li{
+  font-size:0.8em;
+}
+#coordinates h2{
+  text-transform: uppercase;
+  font-size: 1.2em;
+  font-weight: bold;
+  padding-bottom: 15px;
+  color: white;
+}
+
+footer{
+  background-color: #454545;
+  color: #f3f3f3;
+  margin: 0;
+  padding: 30px 0;
+  text-align: center;
+}
+
+footer p{
+  margin: 0;
+}
+
+footer .nav-link{
+  color: white !important;
+}
+.selectform{
+  background-color: #e9ecef;
+  border-radius: 4px;
+  color: black;
+  padding: 3px;
+}
+
+.form-group{
+  display: block !important;
+}
+.form-control{
+  display: inline !important;
+}
+.input-group{
+  padding-left: 0px;
+}
+.btn{
+  background-color: #e9ecef !important;
+  color: black !important;
+  padding: 9px;
+}
+.formulaire{
+  padding-top: 20vh;
+  padding-bottom: 20vh;
+}
+>>>>>>> Front

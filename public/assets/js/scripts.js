@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 // On initialise la latitude et la longitude de Paris (centre de la carte)
 var lat = 48.852969;
@@ -13,6 +14,8 @@ var markerClusters; // Servira à stocker les groupes de marqueurs
 
 
 
+=======
+>>>>>>> Front
 $(document).ready(function(){
     $("#testimonial-slider").owlCarousel({
         items:1,
@@ -25,6 +28,7 @@ $(document).ready(function(){
         singleItem:true,
         transitionStyle:"goDown",
         navigationText:["",""],
+<<<<<<< HEAD
         autoPlay:false
     });
 
@@ -38,6 +42,10 @@ $(document).ready(function(){
 		 navigator.geolocation.getCurrentPosition(maPosition);
 	}
 
+=======
+        autoPlay:true
+    });
+>>>>>>> Front
 });
 
 $(function()
@@ -73,6 +81,7 @@ function affMasqRetourPlus()
 function affMasqUnisexePlus()
 {
 	($('#btnRadUnisexeOui').is(':checked'))?$('#infosSexe').show(500):$('#infosSexe').hide(500);
+<<<<<<< HEAD
 }
 
 
@@ -156,4 +165,6 @@ function utilGeo(event)
 	{
 		console.log(error);
 	});
+=======
+>>>>>>> Front
 }

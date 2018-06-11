@@ -12,6 +12,7 @@
 */
 Route::get('/', 'indexController@accueil')->name('accueil');
 
+<<<<<<< HEAD
 //Routes Trajets
 Route::post('/recherche','trajetController@recherche')->name('rechercheTrajet');
 
@@ -37,6 +38,8 @@ Route::get('/commentcamarche', 'footercontroller@commentcamarche')->name('commen
 Route::get('/presse', 'footercontroller@presse')->name('presse');
 Route::get('/cookies', 'footercontroller@cookies')->name('cookies');
 Route::get('/vieprivee', 'footercontroller@vieprivee')->name('vieprivee');
+=======
+>>>>>>> Front
 
 //Routes erreurs
 Route::get('/404', 'errorsController@pagenontrouvee')->middleware('auth')->name('404');
@@ -44,3 +47,7 @@ Route::get('/404', 'errorsController@pagenontrouvee')->middleware('auth')->name(
 
 Auth::routes();
 
+<<<<<<< HEAD
+=======
+Route::get('/home', 'HomeController@index')->name('home');
+>>>>>>> Front
