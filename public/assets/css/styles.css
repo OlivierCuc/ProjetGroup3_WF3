@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css?family=Marck+Script');
+body{
+  background-color: WHITE;
+}
+footer{
+	background-color: #777777;
+	color: white;
+	padding-top: 10px;
+	margin-bottom: 0px;
+}
+footer a{
+  color: white;
+}
+h2{
+  display: block;
+}
+
+#imageHome{
+background-image: url('../img/route.jpg');
+background-attachment: fixed;
+background-position: center;
+background-size:cover;
+background-color: rgba(255,255,255,0.5);
+height: 100vh;
+color: black;
+padding-top: 450px;
+}
+.mainstuff{
+padding: 60px;
+}
+.copyright{
+text-align: center;
+padding-bottom: 
+}
+.ads{
+width: 70%;
+}
+.numberfact{
+padding: 60px;
+background-color: #54a2bb;
+color: white;
+}
+.badge{
+background-color: white !important;
+border-color: black;
+border-style: solid;
+border-width: 2px;
+padding: 15px;
+margin-bottom: 5px;
+color: black;
+}
+#startArea{
+background-color: #54a2bb;
+padding: 60px;
+color: white;
+}
+.doubleform{
+text-align: center;
+border-color: #d5d5d5;
+border-style: solid;
+border-width: 1px;
+padding: 15px;
+margin-bottom: 35px;
+}
+.doubleform h3{
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+display: inline;
+}
+.table{
+  text-align: center;
+}
+.allign{
+  padding-right: 14px;
+}
+.support{
+  text-align: center;
+}
+.connexionform{
+  background-color: #F2F2F2;
+  margin-top: 18%;
+  margin-bottom: 20%;
+  padding: 10px;
+  border-radius: 6px;
+  box-shadow: 10px 7px 20px 0px rgba(0,0,0,0.75);
+}
+.registerform{
+  background-color: #F2F2F2;
+  margin-top: 3%;
+  margin-bottom: 5%;
+  padding: 10px;
+  border-radius: 6px;
+  box-shadow: 10px 7px 20px 0px rgba(0,0,0,0.75);
+}
+.fbbtn{
+  background-color: #3b5998 !important;
+  border-radius: 0px !important;
+}
+.twbtn{
+  background-color: #1da1f2 !important;
+  border-radius: 0px !important;
+}
+.btnconne{
+  border-radius: 0px !important;
+}
+.template{
+background-image: url('../img/route.jpg');
+background-size: cover;
+}
+.template img{
+filter: blur(35px);
+}
+.connexionform .btn{
+  background-color: #007bff;
+}
+
+
+
+/*CSS pour carousel review*/
+.testimonial .textcenter {
+  margin-bottom: 150px;
+}
+.testimonial{
+    border-left: 3px solid #54a2bb;
+    padding: 100px 0 100px 275px;
+    position: relative
+}
+.template h1{
+  text-align: center;
+}
+.template{
+  margin-top: 120px;
+}
+.demo
+{
+  padding: 100px 0;
+}
+.heading-title
+{
+  margin-bottom: 100px;
+}
+.testimonial:before,
+.testimonial:after{
+    content: "";
+    width: 320px;
+    height: 55px;
+    border-right: 3px solid #54a2bb;
+    position: absolute;
+    left: 0;
+}
+
+.testimonial:before{
+    border-top: 3px solid #54a2bb;
+    top: 0;
+}
+
+.testimonial:after {
+    border-bottom: 3px solid #54a2bb;
+    bottom: 0;
+}
+
+.testimonial .pic{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+.testimonial .pic img{
+    width: 100%;
+    height: auto;
+}
+
+.testimonial .description{
+    font-size: 14px;
+    color: #7a7e82;
+    line-height: 27px;
+    position: relative;
+}
+
+.testimonial .description:before{
+    content: "";
+    font-family: fontawesome;
+    position: absolute;
+    top: -70px;
+    left: 0;
+    font-size: 20px;
+    color: #7a7e82;
+}
+
+.testimonial .testimonial-title{
+    font-size: 22px;
+    font-weight:800;
+    color: #22272c;
+    text-transform: capitalize;
+}
+
+.testimonial .post{
+    display: block;
+    font-size: 15px;
+    font-weight: 700;
+    color : #6cc568;
+    margin-top: 10px;
+}
+
+.owl-theme .owl-controls{
+    text-align: right;
+    margin-top: 30px;
+}
+
+.owl-theme .owl-controls .owl-buttons div{
+    background: #6ab33e;
+    border-radius: 0;
+    opacity: 1;
+    padding: 5px 10px;
+}
+
+.owl-prev:before,
+.owl-next:before{
+   font-family: 'FontAwesome';
+    content: "<";
+    color: #fff;
+}
+
+.owl-next:before{
+   content: ">";
+   display: inline-block;
+   padding-right: 3px;
+   vertical-align: middle;
+}
+
+@media only screen and (max-width: 990px){
+    .testimonial{
+        padding: 80px 0 80px 265px;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .testimonial{
+        padding: 0;
+        border: none;
+    }
+    .testimonial:before,
+    .testimonial:after{
+        border: none;
+    }
+    .testimonial .pic{
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    .testimonial .description{
+        margin-top: 15px;
+    }
+    .testimonial .description:before{
+        content: "";
+    }
+}@charset "utf-8";
+/*FIN CSS pour carousel review*/
+
+
+/*CSS pour formulaire de recherche de trajet :*/
+
+.formtrajet{
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  z-index: 1000;
+  height: 23%;
+}
+.selectform{
+  background-color: #e9ecef;
+  border-radius: 4px;
+  color: black;
+  padding: 6px;
+  margin-top: 20px;
+  margin-left: 0px;
+  width: 100%;
+  text-align: center;
+}
+.btn{
+  background-color: #54a2bb;
+  color: white;
+  width: 100%;
+  border-color: black;
+  border-style: solid;
+}
+.btnmore{
+  border-radius: 45px;
+}
+.formulaire{
+  padding-top: 20vh;
+  padding-bottom: 20vh;
+}
+.form-control{
+  display: block !important;
+}
+.borderform{
+   border-width:0px 1px 0px 0px;
+   border-style: solid;
+   border-color: black;
+}
+.form-controlkg{
+width: 10%;
+margin-left: 40%;
+}
+.center{
+  text-align: center;
+}
+
+/*Fin css pour formulaire trajet */
+
+
+
+
+
+
+
+/*CSS POUR register form*/
+
+
+.controls{
+  display: inline !important;
+}
+.radio-group{
+  display: inline !important;
+}
+.bgform{
+  padding: 5px;
+  text-align: center;
+  background-color: #6c757d;
+  color: white;
+  border-radius: 5px;
+  border-color: #ced4da;
+  border-width: 1px;
+  border-style: solid;
+}
+.infotitre{
+  background-color: white;
+ width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  margin-top: 10px;
+}
+
+/*FIN CSS POUR register form*/
+
+/* 404 */
+
+#quatre{
+
+background-image: url(../img/404.png);
+background-repeat:no-repeat;
+margin-top: 100px;
+padding-top: 600px;
+margin-bottom: 1.5rem;
+margin-left: auto;
+margin-right: auto;
+width: 60%; 
+
+}
+
+/*FIN 404*/
+
+
+
