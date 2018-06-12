@@ -22,54 +22,12 @@
         <script type="text/javascript" src="{{ asset('assets/js/wow.min.js')}}"></script> <!-- JS POUR COMPTE REBOUR -->
         <script type="text/javascript" src="{{ asset('assets/js/main.js')}}"></script> <!-- JS POUR COMPTE REBOUR -->
 
-<<<<<<< HEAD
 <main class="container-fluid"> 
-=======
-<header class="container-fluid"  >
-        <section class="container">
-            <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top"> <!-- Début de la NavBar   -->
-                <a class="navbar-brand" href="#">
-                    <img src="assets/img/logo_coco.png" width="100" height="100" class="d-inline-block align-top" alt="Logo de notre entreprise">
-                </a>   
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Accueil <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Publier votre Annonce</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link " href="#">Recherche</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Inscription</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Connexion</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Deconnexion</a>
-                        </li>
-                        
-                    </ul>
-                </div>
-            </nav><!-- /Fin de la NavBar   -->
-        </section><!-- /fin du Container  -->
-    </header><!-- /fin du header  -->
-    
-    <!-- Début du Main -->
-    <main class="container-fluid"> 
->>>>>>> Front
         <section class="row" id="imageHome"> 
             <!-- DEBUT FORMULAIRE DE TRAJET -->
             <div class="container formtrajet">
                 <div class="row">
                     <div class="col-6">
-<<<<<<< HEAD
                         <div class="row">  
                             <div class="col-8">
                                 <div class="input-group mb-3">
@@ -106,25 +64,6 @@
                            <div class="col-4">
                                <a class="btn primary" id="btnGeoArrivee">Utiliser Géolocalisation</a>
                            </div>
-=======
-                        <div class="row">   
-                            <div class="input-group mb-3">
-                                <div class="input-group-prepend">
-                                    <span class="input-group-text" id="basic-addon1"><a href=""><i class="fas fa-map-marker-alt"></a></i></span>
-                                </div>
-                                <input type="text" class="form-control" placeholder="Départ" aria-label="Départ" aria-describedby="basic-addon1">
-                            </div>
-                        </div>          
-                    </div>
-                    <div class="col-6">
-                        <div class="row">                   
-                            <div class="input-group mb-3">
-                                <div class="input-group-prepend">
-                                    <span class="input-group-text" style="margin-left: 10px;" id="basic-addon1"><i class="fas fa-map-marker"></i></span>
-                                </div>
-                                <input type="text" class="form-control" style="margin-right: 10px;" placeholder="Arrivé" aria-label="Arrivé" aria-describedby="basic-addon1">
-                            </div>
->>>>>>> Front
                         </div>          
                     </div>
                     <div class="col-6"> 
@@ -134,11 +73,7 @@
                                 <div class="input-group-prepend">
                                     <div class="input-group-text allign"><i class="far fa-calendar"></i></div>
                                 </div>
-<<<<<<< HEAD
                                 <input id="adresse_arrivee" type="date" class="form-control" id="dateDepart" value="{{ \Carbon\Carbon::now()->format('Y-m-d') }}">
-=======
-                                <input type="date" class="form-control" id="dateDepart" placeholder="Date">
->>>>>>> Front
                             </div>
                         </div>          
                     </div>
@@ -153,21 +88,10 @@
                                 <div class="row mr-1 ">
                                     <a><h4>Vous recherchez :</h4>&nbsp;</a>
                                     <select class="form-control mb-5" id="exampleFormControlSelect1">
-<<<<<<< HEAD
                                         <option value="0">Non précisé</option>
                                         @foreach($vehicules as $key => $vehicule)
                                         <option value="{{$vehicule->jfon_id_type_vehicule}}">{{$vehicule->jfon_nom_type}}</option>
                                         @endforeach
-=======
-                                        <option>Non précisé</option>
-                                        <option>Voiture</option>
-                                        <option>VTC</option>
-                                        <option>2 Roues</option>
-                                        <option>Bateau</option>
-                                        <option>Avion</option>
-                                        <option>Drone</option>
-                                        <option>Navette spatiale</option>
->>>>>>> Front
                                     </select>
                                     <div class="center col-12">
                                         <h4 style="display: inline;">Pour&nbsp;:&nbsp;</h4>
@@ -263,10 +187,7 @@
                                                 Non
                                             </label>
                                             <!-- Si pas connecté afficher :-->
-<<<<<<< HEAD
                                             @if (Auth::User() === null)
-=======
->>>>>>> Front
                                             <div id="infosSexe">
                                                 <p>Vous êtes : </p>
                                                 <select class="form-control">
@@ -274,11 +195,7 @@
                                                     <option>Homme</option>
                                                 </select>
                                             </div>
-<<<<<<< HEAD
                                             @endif
-=======
-                                            
->>>>>>> Front
                                             <!-- end :-->                                       
                                         </div>
                                     </div>
@@ -533,17 +450,10 @@
                                         </div>
                                         <div class="testimonial-content">
                                             <p class="description">
-<<<<<<< HEAD
                                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquam amet animi blanditiis consequatur debitis dicta distinctio, enim error eum iste libero modi nam natus perferendis possimus quasi sint sit tempora voluptatem. Est, exercitationem id ipsa ipsum laboriosam perferendis temporibus!
                                             </p>
                                             <h3 class="testimonial-title">Williamson
                                                 <small class="post">Membre depuis : 00/00/0000</small>
-=======
-                                                Novice chez Cococar, on comprend très vite le système! Pratique, rapide, sérieux, merci Cococar de changer nos trajets autoroutiers
-                                            </p>
-                                            <h3 class="testimonial-title">Jean-Claude
-                                                <small class="post">Membre depuis : 10/06/2018</small>
->>>>>>> Front
                                             </h3>
                                         </div>
                                     </div>
@@ -553,17 +463,10 @@
                                         </div>
                                         <div class="testimonial-content">
                                             <p class="description">
-<<<<<<< HEAD
                                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquam amet animi blanditiis consequatur debitis dicta distinctio, enim error eum iste libero modi nam natus perferendis possimus quasi sint sit tempora voluptatem. Est, exercitationem id ipsa ipsum laboriosam perferendis temporibus!
                                             </p>
                                             <h3 class="testimonial-title">kristiana
                                                 <small class="post">Membre depuis : 00/00/0000</small>
-=======
-                                                Bon principe et bon concept innovant pour trouver rapidement et à moindre prix un trajet vers l'endroit où on souhaite se rendre ! Cela nous permet de rencontrer également des personnes sympathiques !
-                                            </p>
-                                            <h3 class="testimonial-title">Michel
-                                                <small class="post">Membre depuis : 05/06/2018</small>
->>>>>>> Front
                                             </h3>
                                         </div>
                                     </div>
@@ -573,17 +476,10 @@
                                         </div>
                                         <div class="testimonial-content">
                                             <p class="description">
-<<<<<<< HEAD
                                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquam amet animi blanditiis consequatur debitis dicta distinctio, enim error eum iste libero modi nam natus perferendis possimus quasi sint sit tempora voluptatem. Est, exercitationem id ipsa ipsum laboriosam perferendis temporibus!
                                             </p>
                                             <h3 class="testimonial-title">Steve Thomas
                                                 <small class="post">Membre depuis : 00/00/0000</small>
-=======
-                                                Cococar offre un service sécurisé de covoiturage. Le site internet complet permet l'utilisation de la plateforme.  
-                                            </p>
-                                            <h3 class="testimonial-title">Roberto
-                                                <small class="post">Membre depuis : 03/05/2017</small>
->>>>>>> Front
                                             </h3>
                                         </div>
                                     </div>
@@ -594,9 +490,5 @@
                 </div>
             </div> <!-- FIN DIV COL CONTENUE CENTRE -->
         </section><!-- /fin ROW PRINCIPAL  -->
-<<<<<<< HEAD
     </main>
-=======
-    </main><!-- /fin du Main  -->   
->>>>>>> Front
 @endsection

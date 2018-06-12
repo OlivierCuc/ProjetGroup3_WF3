@@ -2,7 +2,6 @@
 body{
   background-color: WHITE;
 }
-<<<<<<< HEAD
 footer{
 	background-color: #777777;
 	color: white;
@@ -16,20 +15,6 @@ h2{
   display: block;
 }
 
-=======
-
-
-h2{
-  color: #6cc568;
-  display: block;
-}
-
-h3{
-color: #6cc568;
-
-}
-
->>>>>>> Front
 #imageHome{
 background-image: url('../img/route.jpg');
 background-attachment: fixed;
@@ -43,14 +28,10 @@ padding-top: 450px;
 .mainstuff{
 padding: 60px;
 }
-<<<<<<< HEAD
 .copyright{
 text-align: center;
 padding-bottom: 
 }
-=======
-
->>>>>>> Front
 .ads{
 width: 70%;
 }
@@ -283,11 +264,7 @@ filter: blur(35px);
 /*CSS pour formulaire de recherche de trajet :*/
 
 .formtrajet{
-<<<<<<< HEAD
   background-color: white;
-=======
-  background-color: transparent;
->>>>>>> Front
   padding: 20px;
   border-radius: 10px;
   z-index: 1000;
@@ -351,10 +328,7 @@ margin-left: 40%;
   display: inline !important;
 }
 .bgform{
-<<<<<<< HEAD
   padding: 5px;
-=======
->>>>>>> Front
   text-align: center;
   background-color: #6c757d;
   color: white;
@@ -363,7 +337,6 @@ margin-left: 40%;
   border-width: 1px;
   border-style: solid;
 }
-<<<<<<< HEAD
 .infotitre{
   background-color: white;
  width: 60%;
@@ -376,12 +349,6 @@ margin-left: 40%;
 
 /*FIN CSS POUR register form*/
 
-=======
-
-/*FIN CSS POUR register form*/
-
-
->>>>>>> Front
 /* 404 */
 
 #quatre{
@@ -397,77 +364,7 @@ width: 60%;
 
 }
 
-<<<<<<< HEAD
 /*FIN 404*/
 
 
-=======
-
-
-/*Footer*/
-
-footer{
-  background-color: #333333;
-  color: white !important;
-  padding-top: 10px;
-  margin-bottom: 0px;
-}
-
-#footer {
-    background-color: #121116;
-    padding: 115px 0 35px;
-}
-
-
-.footer-social {
-    margin-bottom: 85px;
-}
-
-.footer-social h3 {
-    font-size: 20px;
-    color: #6cc568;;
-    text-transform: uppercase;
-    margin-bottom: 20px;
-    padding-bottom: 20px;
-    position: relative;
-}
-
-.footer-social h3:after {
-  border-bottom: 1px solid #fff;
-  bottom: 0;
-  content: "";
-  display: block;
-  left: 50%;
-  margin-left: -115px;
-  position: absolute;
-  width: 230px;
-}
-
-.footer-social ul li a {
-  color: #fff;
-  display: block;
-  margin: 0 8px;
-}
-
-.footer-social ul li a:hover {
-  color: #6cc568;
-}
-
-.copyright {
-    text-align: center;
-    font-size: 15px;
-    font-weight: 600;
-    color: #fff;
-}
-
-.copyright a {
-    color: #6cc568;
-}
-
-
-.copyright p:first-child {
-    margin-bottom: 0px;
-}
-
->>>>>>> Front
 

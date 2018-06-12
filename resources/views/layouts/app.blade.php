@@ -71,8 +71,4 @@
         </main>
     </div>
 </body>
-<<<<<<< HEAD
 </html>
-=======
-</html>  
->>>>>>> Front
