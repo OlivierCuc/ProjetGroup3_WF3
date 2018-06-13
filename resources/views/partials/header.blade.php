@@ -20,36 +20,37 @@
 	</head>
 	<body>
 		<header class="container-fluid"  >
-			<section class="container">
-				<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top"> <!-- Début de la NavBar   -->
-					<a class="navbar-brand" href="#">
-						<img src="assets/img/logo_coco.png" width="100" height="100" class="d-inline-block align-top" alt="Logo de notre entreprise">
-					</a>   
-					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-						<span class="navbar-toggler-icon"></span>
-					</button>
-					<div class="collapse navbar-collapse">
-						<ul class="navbar-nav ml-auto">
-							<li class="nav-item active">
-								<a class="nav-link" href="#">Acceuil <span class="sr-only">(current)</span></a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="#">login</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="#">Info utile</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="#">Publier votre Annonce</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="#">Mon compte</a>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link " href="#">Creer un compte</a>
-							</li>
-						</ul>
-					</div>
-				</nav><!-- /Fin de la NavBar   -->
-			</section><!-- /fin du Container  -->
-		</header><!-- /fin du header  -->
+		<section class="container">
+			<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top"> <!-- Début de la NavBar   -->
+				<a class="navbar-brand" href="#">
+					<img src="assets/img/logo_coco.png" width="100" height="100" class="d-inline-block align-top" alt="Logo de notre entreprise">
+				</a>   
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item active">
+							<a class="nav-link" href="{{ route('accueil') }}">Accueil <span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="{{ route('publiervotreannonce') }}">Publier votre Annonce</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link " href="{{ route('recherche') }}">Recherche</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="">Inscription</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="">Connexion</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="">Deconnexion</a>
+						</li>
+						
+					</ul>
+				</div>
+			</nav><!-- /Fin de la NavBar   -->
+		</section><!-- /fin du Container  -->
+	</header><!-- /fin du header  -->

@@ -2,17 +2,16 @@
 body{
   background-color: WHITE;
 }
-footer{
-	background-color: #777777;
-	color: white;
-	padding-top: 10px;
-	margin-bottom: 0px;
-}
-footer a{
-  color: white;
-}
+
+
 h2{
+  color: #6cc568;
   display: block;
+}
+
+h3{
+color: #6cc568;
+
 }
 
 #imageHome{
@@ -28,10 +27,7 @@ padding-top: 450px;
 .mainstuff{
 padding: 60px;
 }
-.copyright{
-text-align: center;
-padding-bottom: 
-}
+
 .ads{
 width: 70%;
 }
@@ -264,7 +260,7 @@ filter: blur(35px);
 /*CSS pour formulaire de recherche de trajet :*/
 
 .formtrajet{
-  background-color: white;
+  background-color: transparent;
   padding: 20px;
   border-radius: 10px;
   z-index: 1000;
@@ -328,7 +324,6 @@ margin-left: 40%;
   display: inline !important;
 }
 .bgform{
-  padding: 5px;
   text-align: center;
   background-color: #6c757d;
   color: white;
@@ -337,17 +332,9 @@ margin-left: 40%;
   border-width: 1px;
   border-style: solid;
 }
-.infotitre{
-  background-color: white;
- width: 60%;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 10px;
-  margin-bottom: 40px;
-  margin-top: 10px;
-}
 
 /*FIN CSS POUR register form*/
+
 
 /* 404 */
 
@@ -364,7 +351,76 @@ width: 60%;
 
 }
 
-/*FIN 404*/
 
 
+/*Footer*/
 
+footer{
+  background-color: #333333;
+  color: white !important;
+  padding-top: 10px;
+  margin-bottom: 0px;
+}
+
+#footer {
+    background-color: #121116;
+    padding: 115px 0 35px;
+}
+
+
+.footer-social {
+    margin-bottom: 85px;
+}
+
+.footer-social h3 {
+    font-size: 20px;
+    color: #6cc568;;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.footer-social h3:after {
+  border-bottom: 1px solid #fff;
+  bottom: 0;
+  content: "";
+  display: block;
+  left: 50%;
+  margin-left: -115px;
+  position: absolute;
+  width: 230px;
+}
+
+.footer-social ul li a {
+  color: #fff;
+  display: block;
+  margin: 0 8px;
+}
+
+.footer-social ul li a:hover {
+  color: #6cc568;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.copyright a {
+    color: #6cc568;
+}
+
+
+.copyright p:first-child {
+    margin-bottom: 0px;
+}
+
+
+/* register.blade.php appliquable sur toutes les pages*/
+.spnav{
+  padding-top: 20vh;
+  padding-bottom: 20vh;
+}

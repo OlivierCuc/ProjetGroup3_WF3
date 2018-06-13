@@ -107,6 +107,8 @@ function initMap()
 function maPosition(position) {
   posLat = position.coords.latitude;
   posLon = position.coords.longitude;
+  console.log("posLat :"+posLat);
+  console.log("posLon :"+posLon);
  
 }
 	

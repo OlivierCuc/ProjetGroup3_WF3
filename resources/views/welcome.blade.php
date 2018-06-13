@@ -56,9 +56,7 @@
                                     </div>
                                     <input list="listAdresseArrivee"  id="adresse_arrivee" type="text" class="form-control" style="margin-right: 10px;" placeholder="Arrivé" aria-label="Arrivé" aria-describedby="basic-addon1">
                                     <datalist id="listAdresseArrivee">
-                            
                                     </datalist>
-                                    
                                 </div>
                             </div>                
                            <div class="col-4">
@@ -240,66 +238,33 @@
                         <table class="table table-striped">
                             <thead>
                                 <tr>
-                                    <th scope="col">Départ <i class="fas fa-location-arrow"></i></th>
-                                    <th scope="col">Arrivée <i class="fas fa-map-marker"></i></th>
-                                    <th scope="col">Date <i class="far fa-calendar"></i></th>
-                                    <th scope="col">Heure départ <i class="fas fa-clock"></i></th>
-                                    <th scope="col">Heure arrivée <i class="fas fa-clock"></i></th>
-                                    <th scope="col">Places disponibles <i class="fas fa-male"></i></th>
-                                    <th scope="col">C'est partit ! <i class="fas fa-car"></i></i></th>
+                                    <th scope="col">Départ<br><i class="fas fa-location-arrow"></i></th>
+                                    <th scope="col">Arrivée<br><i class="fas fa-map-marker"></i></th>
+                                    <th scope="col">Date départ<br><i class="far fa-calendar"></i></th>
+                                    <th scope="col">Heure départ<br><i class="fas fa-clock"></i></th>
+                                    <th scope="col">Date arrivée<br><i class="far fa-calendar"></i></th>
+                                    <th scope="col">Heure arrivée<br><i class="fas fa-clock"></i></th>
+                                    <th scope="col">Places disponibles<br><i class="fas fa-male"></i></th>
+                                    <th scope="col">C'est partit !<br><i class="fas fa-car"></i></i></th>
                                 </tr>
                             </thead>
                             <tbody>
+                               {{--  @foreach($trajets as $trajet)
                                 <tr>
-
-                                    <td>Auxerre</td>
-                                    <td>Paris</td>
-                                    <td>23/04/1998</td>
-                                    <td>16h30</td>
-                                    <td>18h22</td>
-                                    <td>1 places</td>
+                                    <td>{{$trajet->ville_depart}}</td>
+                                    <td>{{$trajet->ville_arrivee}}</td>
+                                    <td>{{$trajet->date_depart}}</td>
+                                    <td>{{$trajet->heure_depart}}</td>
+                                    <td>{{$trajet->date_arrivee}}</td>
+                                    <td>{{$trajet->heure_arrivee}}</td>
+                                    <td>{{$trajet->nb_place_rest}}</td>
                                     <td><button type="button" class="btn btn-primary">Réserver</button></td>
                                 </tr>
-                                <tr>
-                                    <td>Auxerre</td>
-                                    <td>Paris</td>
-                                    <td>23/04/1998</td>
-                                    <td>16h30</td>
-                                    <td>18h22</td>
-                                    <td>1 places</td>
-                                    <td><button type="button" class="btn btn-primary">Réserver</button></td>
-                                </tr>
-                                <tr>
-                                    <td>Auxerre</td>
-                                    <td>Paris</td>
-                                    <td>23/04/1998</td>
-                                    <td>16h30</td>
-                                    <td>18h22</td>
-                                    <td>1 places</td>
-                                    <td><button type="button" class="btn btn-primary">Réserver</button></td>
-                                </tr>
+                                @endforeach --}}
                             </tbody>
                         </table>
                         <div class="col-2 offset-10">
-                            <nav aria-label="Page navigation example">
-                                <ul class="pagination">
-                                    <li class="page-item">
-                                        <a class="page-link" href="#" aria-label="Previous">
-                                            <span aria-hidden="true">&laquo;</span>
-                                            <span class="sr-only">Previous</span>
-                                        </a>
-                                    </li>
-                                    <li class="page-item"><a class="page-link" href="#">1</a></li>
-                                    <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                    <li class="page-item">
-                                        <a class="page-link" href="#" aria-label="Next">
-                                            <span aria-hidden="true">&raquo;</span>
-                                            <span class="sr-only">Next</span>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </nav>
+                            
                         </div>                                      
                     </div>
                 </div>
@@ -310,7 +275,7 @@
                                 <div class="fact-icon">
                                     <i class="fa fa-check-square fa-lg"></i>
                                 </div>
-                                <span data-to="120">0</span>
+                                <span data-to="{{$statistiques->jfon_codeuxs}}">0</span>
                                 <p>Grammes de CO2 économisé.</p>
                             </div>
                         </div>
@@ -320,8 +285,8 @@
                                 <div class="fact-icon">
                                     <i class="fa fa-users fa-lg"></i>                                    
                                 </div>
-                                <span data-to="152">0</span>
-                                <p>Trajets parcourus</p>
+                                <span data-to="{{$statistiques->jfon_econnomies}}">0</span> €
+                                <p>Economies réalisées</p>
                             </div>
                         </div>
                         
@@ -330,8 +295,8 @@
                                 <div class="fact-icon">
                                       <i class="fa fa-users fa-lg"></i>   
                                 </div>
-                                <span data-to="2500">0</span>
-                                <p>Km parcourus</p>
+                                <span data-to="{{$statistiques->jfon_trajets}}">0</span>
+                                <p>Trajets effectués</p>
                             </div>
                         </div>
                         
@@ -340,8 +305,8 @@
                                 <div class="fact-icon">
                                     <i class="fa fa-trophy fa-lg"></i>
                                 </div>
-                                <span data-to="150">0</span>
-                                <p>Voyageurs heureux</p>
+                                <span data-to="{{$statistiques->jfon_utilisateur_news}}">0</span>
+                                <p>Voyageurs inscrits</p>
                             </div>
                         </div>
                 </div>

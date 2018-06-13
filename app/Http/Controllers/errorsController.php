@@ -9,4 +9,4 @@ class errorsController extends Controller
     public function pagenontrouvee(){
     	return view('\errors\404');
     }
-}
+}  

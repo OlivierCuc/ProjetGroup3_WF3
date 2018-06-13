@@ -1,4 +1,4 @@
-@extends('layouts.adminlayout')
+@extends('layouts.mainlayout')
 
 
 @section('title', "Profil")
